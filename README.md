@@ -17,5 +17,11 @@ For this task, I have used the YOLOv8 model, which is trained on the prepared da
 https://colab.research.google.com/drive/1t3GZJYBu6oZDNmGu5iwTzUDbvs8L9Edk?usp=sharing
 
 
+## Real-Time Detection
+Real-time detection of faces is implemented using the best-trained YOLOv8 model and the OpenCV library. The system processes frames from a video file and performs detection on selected frames to optimize performance. Key highlights of the real-time detection system include:
+
+- **Frame Extraction**: Frames are extracted at regular intervals to ensure efficient processing without compromising on detection accuracy.
+- **YOLOv8 Integration**: The pre-trained YOLOv8 model is used to detect faces in the extracted frames with high precision.
+- **Annotated Output**: The detection results are plotted on the frames, and annotated frames are saved for further analysis.
 
 
